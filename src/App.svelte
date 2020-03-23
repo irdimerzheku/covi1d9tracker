@@ -13,13 +13,13 @@
 
 <main>
   <div class="text-center">
-    <h1 class="my-4">Covid19</h1>
+    <h1 class="my-4">Covid19 Tracker</h1>
   </div>
 
   <div class="container">
     <h2 class="mt-4">Statistics</h2>
     <p>
-      General number of cases
+      Number of total cases:
     </p>
     <div class="row">
       <div class="col-12 col-lg-4 mb-2">
@@ -62,8 +62,9 @@
         <hr>
       </div>
       <hr> 
-<div class="container card shadow-sm " id="mapdiv" style="width: 1135px; height: 465px;"></div>
-<div style="width: 1000px; font-size: 70%; padding: 5px 0; text-align: center; background-color: #FFFFFF; margin-top: 1px; color: #B3B4B5;"><a href="https://www.amcharts.com/visited_countries/" style="color: #B3B4B5;">Create your own visited countries map</a> or check out the <a href="https://www.amcharts.com/" style="color: #B3B4B5;">JavaScript Charts</a>.</div>
+	  <div class="container card shadow-bg">
+<div class="container" id="mapdiv" style="width: 1100px; height: 450px;"></div>
+<div style="width: 1100px; font-size: 70%; padding: 5px 0; text-align: center; background-color: #FFFFFF; margin-top: 1px; color: #B4B4B7;"><a href="https://www.amcharts.com/visited_countries/" style="color: #B4B4B7;">Create your own visited countries map</a> or check out the <a href="https://www.amcharts.com/" style="color: #B4B4B7;">JavaScript Charts</a>.</div>
 <script type="text/javascript">
 var map = AmCharts.makeChart("mapdiv",{
 type: "map",
@@ -177,6 +178,10 @@ areas :
 		"showAsSelected": true
 	},
 	{
+		"id": "LU",
+		"showAsSelected": true
+	},
+	{
 		"id": "MK",
 		"showAsSelected": true
 	},
@@ -265,7 +270,7 @@ areas :
 		"showAsSelected": true
 	},
 	{
-		"id": "SV",
+		"id": "GL",
 		"showAsSelected": true
 	},
 	{
@@ -273,11 +278,11 @@ areas :
 		"showAsSelected": true
 	},
 	{
-		"id": "HT",
+		"id": "HN",
 		"showAsSelected": true
 	},
 	{
-		"id": "HN",
+		"id": "MQ",
 		"showAsSelected": true
 	},
 	{
@@ -290,10 +295,6 @@ areas :
 	},
 	{
 		"id": "PA",
-		"showAsSelected": true
-	},
-	{
-		"id": "PR",
 		"showAsSelected": true
 	},
 	{
@@ -365,7 +366,15 @@ areas :
 		"showAsSelected": true
 	},
 	{
+		"id": "CM",
+		"showAsSelected": true
+	},
+	{
 		"id": "TD",
+		"showAsSelected": true
+	},
+	{
+		"id": "CI",
 		"showAsSelected": true
 	},
 	{
@@ -381,10 +390,6 @@ areas :
 		"showAsSelected": true
 	},
 	{
-		"id": "KE",
-		"showAsSelected": true
-	},
-	{
 		"id": "LY",
 		"showAsSelected": true
 	},
@@ -393,15 +398,15 @@ areas :
 		"showAsSelected": true
 	},
 	{
-		"id": "ML",
-		"showAsSelected": true
-	},
-	{
 		"id": "MR",
 		"showAsSelected": true
 	},
 	{
 		"id": "MA",
+		"showAsSelected": true
+	},
+	{
+		"id": "MZ",
 		"showAsSelected": true
 	},
 	{
@@ -417,11 +422,23 @@ areas :
 		"showAsSelected": true
 	},
 	{
+		"id": "CG",
+		"showAsSelected": true
+	},
+	{
+		"id": "SN",
+		"showAsSelected": true
+	},
+	{
 		"id": "SO",
 		"showAsSelected": true
 	},
 	{
 		"id": "ZA",
+		"showAsSelected": true
+	},
+	{
+		"id": "SS",
 		"showAsSelected": true
 	},
 	{
@@ -433,11 +450,11 @@ areas :
 		"showAsSelected": true
 	},
 	{
-		"id": "TN",
+		"id": "EH",
 		"showAsSelected": true
 	},
 	{
-		"id": "EH",
+		"id": "ZM",
 		"showAsSelected": true
 	},
 	{
@@ -462,10 +479,6 @@ areas :
 	},
 	{
 		"id": "CN",
-		"showAsSelected": true
-	},
-	{
-		"id": "HK",
 		"showAsSelected": true
 	},
 	{
@@ -494,10 +507,6 @@ areas :
 	},
 	{
 		"id": "KZ",
-		"showAsSelected": true
-	},
-	{
-		"id": "KW",
 		"showAsSelected": true
 	},
 	{
@@ -537,11 +546,11 @@ areas :
 		"showAsSelected": true
 	},
 	{
-		"id": "PH",
+		"id": "PS",
 		"showAsSelected": true
 	},
 	{
-		"id": "QA",
+		"id": "PH",
 		"showAsSelected": true
 	},
 	{
@@ -557,6 +566,10 @@ areas :
 		"showAsSelected": true
 	},
 	{
+		"id": "TW",
+		"showAsSelected": true
+	},
+	{
 		"id": "TJ",
 		"showAsSelected": true
 	},
@@ -566,10 +579,6 @@ areas :
 	},
 	{
 		"id": "TM",
-		"showAsSelected": true
-	},
-	{
-		"id": "AE",
 		"showAsSelected": true
 	},
 	{
@@ -589,6 +598,14 @@ areas :
 		"showAsSelected": true
 	},
 	{
+		"id": "FJ",
+		"showAsSelected": true
+	},
+	{
+		"id": "NZ",
+		"showAsSelected": true
+	},
+	{
 		"id": "PG",
 		"showAsSelected": true
 	}
@@ -596,19 +613,15 @@ areas :
 },
 areasSettings : {
 autoZoom : true,
-color : "#B3B4B5",
+color : "#B4B4B7",
 colorSolid : "#FF0000",
 selectedColor : "#FF0000",
 outlineColor : "#666666",
-rollOverColor : "#006AFF",
+rollOverColor : "#FF0000",
 rollOverOutlineColor : "#000000"
 }
 });
 </script>
 
-    </div>
-
-<div class="container">
-</div>
-
+	  </div>
 </main>
